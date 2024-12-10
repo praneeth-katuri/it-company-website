@@ -1,0 +1,392 @@
+/* Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #777777;
+}
+
+i,
+span,
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Top header Styles */
+@media (max-width: 1199px) {
+  .toolbar-area {
+    display: none;
+  }
+}
+
+.toolbar-area {
+  background: #707070;
+  padding: 12px 0;
+}
+
+.toolbar-area .toolbar-contact p {
+  display: inline-block;
+  margin-right: 25px;
+  text-align: center;
+  line-height: 0;
+  font-size: 17px;
+  color: #fff;
+  position: relative;
+  padding-left: 30px;
+}
+
+.toolbar-area .toolbar-contact p i {
+  display: inline-block;
+  margin-right: 6px;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+
+.toolbar-area .toolbar-contact p a {
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 7px;
+  transition: all 0.3s ease;
+}
+
+.toolbar-area .toolbar-sl-share ul {
+  float: right;
+}
+
+.toolbar-area .toolbar-sl-share ul li {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.toolbar-area .toolbar-sl-share ul li a {
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  display: block;
+  border: 1px solid #eee;
+  line-height: 36px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Navbar  */
+.custom-navbar {
+  background-color: #d0d3d4;
+}
+
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  max-height: 70px;
+}
+.navbar-nav .nav-item {
+  margin: 0 15px;
+}
+
+.navbar .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.navbar .nav-link,
+.dropdown-item {
+  color: #4a4a4a;
+  font-weight: 500;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ff3800;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 5px;
+}
+
+.navbar .dropdown-menu {
+  background-color: #d0d2d4;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-item {
+  color: #4a4a4a;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+  color: #ff3800;
+  background-color: rgba(255, 56, 0, 0.1);
+}
+
+.btn {
+  max-width: 190px;
+}
+
+.main-btn {
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  max-width: 225px;
+  text-transform: capitalize;
+  color: white;
+  background-color: #ff3800;
+  border: 2px solid #ff3800;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 16px 10px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.main-btn:hover {
+  color: #020306;
+  border: 2px solid #ff3800;
+}
+
+/* BreadCrumb */
+.breadcrumb-container {
+  border-bottom: 2px solid #ddd;
+  background-color: #f5f6f7;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.breadcrumb {
+  display: inline-block;
+  background: #f5f6f7;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.breadcrumb-item a {
+  color: #555;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #ff3800;
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #ff3800;
+  font-weight: bold;
+}
+
+h2 {
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(to right, #007bff, #6610f2);
+}
+
+.section-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Card Styling */
+.service-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.3s ease;
+  object-position: center;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #f1f1f1;
+}
+
+.service-card:hover img {
+  transform: scale(1.1);
+}
+
+.service-card .card-body {
+  padding: 1.5rem;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.service-card:hover .card-body {
+  opacity: 1;
+}
+
+.service-card .card-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-body p {
+  color: #666;
+}
+
+.service-card:focus-within {
+  border: 2px solid #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    max-width: 100%;
+  }
+
+  .service-card img {
+    height: auto;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .card-body {
+    text-align: justify;
+  }
+}
+
+#services,
+#approach {
+  background-color: #e9f7fc;
+}
+
+/* Footer */
+.footer {
+  background-color: #e9ecef;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.footer a:active {
+  color: #0056b3;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #007bff;
+}
+
+.footer h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.footer p,
+.footer ul {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer .form-control {
+  border-radius: 50px;
+  box-shadow: none;
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.footer .btn {
+  background-color: #ff3800;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 25px;
+  font-size: 1rem;
+}
+
+.footer .btn:hover {
+  background-color: #d83500;
+}
+
+@media (max-width: 767px) {
+  .footer h4 {
+    font-size: 1.2rem;
+  }
+
+  .footer .form-control {
+    width: 100%;
+  }
+
+  .footer .btn {
+    width: 100%;
+  }
+
+  .footer .col {
+    margin-bottom: 30px;
+  }
+}
+
+.footer hr {
+  border-top: 1px solid #e0e0e0;
+  margin: 20px 0;
+}
+
+.footer .fab {
+  font-size: 1.5rem;
+  color: #343a40;
+  transition: color 0.3s ease;
+}
+
+.footer .fab:hover {
+  color: #ff3800;
+}

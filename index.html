@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="icon" href="assets/images/favicon.webp" type="image/webp" />
+
+    <title>WebWiz - IT Solutions</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Font Awesome icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Flaticons -->
+    <link rel="stylesheet" href="./assets/css/flaticon.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- 1. Header Section -->
+    <header class="header-area">
+      <div class="header-menu-area d-none d-md-block">
+        <div class="toolbar-area">
+          <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+              <div class="col-lg-8 col-md-9 col-12">
+                <div class="toolbar-contact">
+                  <p>
+                    <i class="flaticon-email"></i
+                    ><a href="mailto:info@example.com">info@webwiz.com</a>
+                  </p>
+                  <p>
+                    <i class="flaticon-phone-call"></i
+                    ><a href="tel:+440-98-5298">Tel: +123-45-6789</a>
+                  </p>
+                  <p>
+                    <i class="flaticon-placeholder"></i>007 Road, Sarpavaram,
+                    Kakinada
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-3 col-12">
+                <div class="toolbar-sl-share">
+                  <ul>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="flaticon-facebook-circular-logo"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="flaticon-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="flaticon-pinterest-social-logo"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        ><i class="flaticon-twitter"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index2.html">
+            <img
+              src="./assets/images/icon.webp"
+              alt="Logo"
+              class="light-logo"
+            />
+          </a>
+          <!-- Toggle Button for Responsive Design -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <!-- Other Links -->
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Services</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li>
+                    <a class="dropdown-item" href="webdevelopment.html"
+                      >Web Development</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cloud.html"
+                      >Cloud Solutions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="it-consulting.html"
+                      >IT Consulting</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="digitalmarketing.html"
+                      >Digital Marketing</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="app-development.html"
+                      >App Development</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="it-support.html"
+                      >IT Support</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- Button -->
+            <a
+              href="#"
+              class="btn main-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#quoteModal"
+              >Get a Quote</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- 2. Caurosel (BootStrap) -->
+    <div
+      id="myCarousel"
+      class="carousel slide pointer-event"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/carousel/car-1.jpg"
+            class="d-block w-100"
+            alt="Slide 1"
+          />
+          <div class="carousel-caption text-start">
+            <h1>Innovating Tomorrow, Today</h1>
+            <p>Empowering your business with cutting-edge IT solutions.</p>
+            <p>
+              <a class="btn main-btn" href="it-consulting.html">Get Started</a>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/carousel/car-2.jpg"
+            class="d-block w-100"
+            alt="Slide 2"
+          />
+          <div class="carousel-caption text-center">
+            <h1>Web Development That Works</h1>
+            <p>
+              We create powerful, user-friendly websites to fuel your growth.
+            </p>
+            <p>
+              <a class="btn main-btn" href="webdevelopment.html"
+                >Explore Our Work</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/carousel/car-3.jpg"
+            class="d-block w-100"
+            alt="Slide 3"
+          />
+          <div class="carousel-caption text-end">
+            <h1>Secure and Scalable IT Infrastructure</h1>
+            <p>
+              Strengthening your systems with reliable cloud and security
+              solutions.
+            </p>
+            <p><a class="btn main-btn" href="it-support.html">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- 3. About Us and Why Choose Us -->
+    <section class="py-5 bg-light" id="about-us">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">About Us</h2>
+          <p class="text-muted">
+            At <strong>WebWiz</strong>, we are dedicated to delivering
+            cutting-edge IT solutions to help businesses thrive. Our expertise
+            spans web development, cloud computing, and bespoke software
+            solutions, ensuring every project is a success.
+          </p>
+        </div>
+
+        <!-- Why Choose Us Header -->
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 class="fw-bold">Why Choose Us?</h3>
+          </div>
+        </div>
+
+        <!-- Why Choose Us Cards -->
+        <div class="row mt-4 text-center">
+          <!-- Feature 1 -->
+          <div class="col-md-4 mb-4" data-aos="fade-right">
+            <div class="card p-4 shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-user-shield fa-3x text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Expertise You Can Trust</h5>
+                <p class="card-text text-muted">
+                  Our team comprises highly skilled professionals with years of
+                  experience in IT and software development. We specialize in
+                  handling complex projects, ensuring seamless execution and
+                  unmatched quality.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Feature 2 -->
+          <div class="col-md-4 mb-4" data-aos="fade-down">
+            <div class="card p-4 shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-handshake fa-3x text-success mb-3"></i>
+                <h5 class="card-title fw-bold">Client-Centric Approach</h5>
+                <p class="card-text text-muted">
+                  Your success is our priority. We take the time to understand
+                  your unique business needs, creating tailored solutions that
+                  drive growth and foster strong, long-lasting partnerships.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Feature 3 -->
+          <div class="col-md-4 mb-4" data-aos="fade-left">
+            <div class="card p-4 shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-lightbulb fa-3x text-warning mb-3"></i>
+                <h5 class="card-title fw-bold">Innovative Solutions</h5>
+                <p class="card-text text-muted">
+                  By leveraging the latest technologies and staying ahead of
+                  industry trends, we deliver innovative solutions that enhance
+                  efficiency, reduce costs, and keep your business competitive.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4 text-center">
+          <!-- Feature 4 -->
+          <div class="col-md-6 mb-4" data-aos="fade-up-right">
+            <div class="card p-4 shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-headset fa-3x text-info mb-3"></i>
+                <h5 class="card-title fw-bold">Dedicated Support</h5>
+                <p class="card-text text-muted">
+                  Our dedicated support team is available 24/7 to address any
+                  challenges you face. We ensure prompt resolution and
+                  uninterrupted operations to keep your business running
+                  smoothly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Feature 5 -->
+          <div class="col-md-6 mb-4" data-aos="fade-up-left">
+            <div class="card p-4 shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-chart-line fa-3x text-danger mb-3"></i>
+                <h5 class="card-title fw-bold">Proven Results</h5>
+                <p class="card-text text-muted">
+                  We’ve helped numerous businesses achieve measurable success,
+                  from increasing productivity to boosting revenue. Let us help
+                  you achieve your business objectives with our proven
+                  strategies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Services Section -->
+    <section class="services py-5 bg-light" id="services">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Our Services</h2>
+          <p class="text-muted">
+            At WebWiz, we offer a range of IT solutions that cater to your
+            business needs, ensuring growth, scalability, and reliability.
+          </p>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <!-- Web Development Service -->
+          <div class="col-md-3 mb-4" data-aos="fade-down-right">
+            <div class="card shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Web Development</h5>
+                <p class="card-text text-muted">
+                  We build custom websites and web applications that are
+                  user-friendly, responsive, secure, and scalable, tailored to
+                  your business goals and convert your audience.
+                </p>
+                <a href="webdevelopment.html" class="btn btn-primary"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud Solutions Service -->
+          <div class="col-md-3 mb-4" data-aos="fade-down">
+            <div class="card shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-cloud fa-3x text-info mb-3"></i>
+                <h5 class="card-title fw-bold">Cloud Solutions</h5>
+                <p class="card-text text-muted">
+                  Our cloud solutions help you scale your operations, improve
+                  data security, and increase flexibility, allowing your
+                  business to thrive in the digital age.
+                </p>
+                <a href="cloud.html" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- IT Consulting Service -->
+          <div class="col-md-3 mb-4" data-aos="fade-down-left">
+            <div class="card shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-cogs fa-3x text-success mb-3"></i>
+                <h5 class="card-title fw-bold">IT Consulting</h5>
+                <p class="card-text text-muted">
+                  Our IT consulting services help businesses optimize their IT
+                  infrastructure and adopt best practices to maximize
+                  productivity and reduce costs.
+                </p>
+                <a href="it-consulting.html" class="btn btn-success"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <!-- Digital Marketing Service -->
+          <div class="col-md-3 mb-4" data-aos="fade-up-right">
+            <div class="card shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-bullhorn fa-3x text-danger mb-3"></i>
+                <h5 class="card-title fw-bold">Digital Marketing</h5>
+                <p class="card-text text-muted">
+                  Our digital marketing services help your brand reach the right
+                  audience through SEO, social media, and targeted advertising
+                  strategies.
+                </p>
+                <a href="digitalmarketing.html" class="btn btn-danger"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile App Development Service -->
+          <div class="col-md-3 mb-4" data-aos="fade-up">
+            <div class="card shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-mobile-alt fa-3x text-warning mb-3"></i>
+                <h5 class="card-title fw-bold">Mobile App Development</h5>
+                <p class="card-text text-muted">
+                  We create mobile applications for both Android and iOS,
+                  ensuring seamless user experience, performance, and
+                  scalability.
+                </p>
+                <a href="app-development.html" class="btn btn-warning"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- IT Support Service -->
+          <div class="col-md-3 mb-4" data-aos="fade-left-up">
+            <div class="card shadow-sm h-100 service-card">
+              <div class="card-body">
+                <i class="fas fa-headset fa-3x text-info mb-3"></i>
+                <h5 class="card-title fw-bold">IT Support</h5>
+                <p class="card-text text-muted">
+                  Our IT support team is available 24/7 to provide quick
+                  resolutions and maintain your infrastructure's optimal
+                  performance.
+                </p>
+                <a href="it-support.html" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 4. Testimonial Caurosel -->
+
+    <section class="py-5" id="testimonials">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">What Our Clients Say</h2>
+          <p class="text-muted">
+            Here's how we've helped our clients succeed in the ever-evolving IT
+            landscape.
+          </p>
+        </div>
+
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Testimonial 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                  <div class="testimonial-card">
+                    <img
+                      src="assets/images/user1.png"
+                      alt="Client 1"
+                      class="rounded-circle mb-3"
+                      style="width: 80px; height: 80px"
+                    />
+                    <p class="lead">
+                      "WebWiz provided exceptional IT solutions that helped us
+                      scale our business efficiently. Their team was incredibly
+                      responsive and professional!"
+                    </p>
+                    <div class="star-rating">
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                    </div>
+                    <h5 class="fw-bold">John Doe</h5>
+                    <p class="text-muted">CEO, Tech Innovations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                  <div class="testimonial-card">
+                    <img
+                      src="assets/images/user2.png"
+                      alt="Client 2"
+                      class="rounded-circle mb-3"
+                      style="width: 80px; height: 80px"
+                    />
+                    <p class="lead">
+                      "The team at WebWiz delivered our cloud infrastructure on
+                      time and with excellent support. Highly recommend their
+                      services!"
+                    </p>
+                    <div class="star-rating">
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                    </div>
+                    <h5 class="fw-bold">Jane Smith</h5>
+                    <p class="text-muted">COO, Digital Solutions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                  <div class="testimonial-card">
+                    <img
+                      src="assets/images/user3.png"
+                      alt="Client 3"
+                      class="rounded-circle mb-3"
+                      style="width: 80px; height: 80px"
+                    />
+                    <p class="lead">
+                      "WebWiz' custom software solutions helped streamline our
+                      operations and drive growth. Their expertise was
+                      invaluable!"
+                    </p>
+                    <div class="star-rating">
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half-alt text-warning"></i>
+                      <i class="far fa-star text-warning"></i>
+                    </div>
+                    <h5 class="fw-bold">Mark Taylor</h5>
+                    <p class="text-muted">Founder, InnovateTech</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--6. CTA Section -->
+    <section class="cta-section bg-primary text-white py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold" data-aos="flip-down">
+          Ready to Start Your Project?
+        </h2>
+        <p class="lead mb-4" data-aos="flip-right">
+          Let us help you bring your ideas to life with innovative IT solutions.
+          Reach out today and get started on your next big venture.
+        </p>
+        <a
+          href="#get-quote"
+          class="btn btn-light btn-lg"
+          data-bs-toggle="modal"
+          data-bs-target="#quoteModal"
+          >Get a Quote</a
+        >
+      </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer class="footer pt-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 justify-content-center">
+          <!-- About Us Section -->
+          <div class="col mb-4 text-center">
+            <h4 class="fw-bold">About WebWiz</h4>
+            <p class="text-muted">
+              We are a leading IT solutions provider, specializing in custom
+              software, cloud services, and web development. With years of
+              expertise, we transform ideas into reality.
+            </p>
+          </div>
+
+          <!-- Services Section -->
+          <div class="col mb-4 text-center">
+            <h4 class="fw-bold">Links</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="about-us.html">About Us</a>
+              </li>
+              <li>
+                <a href="careers.html">Careers</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="col mb-4 text-center">
+            <h4 class="fw-bold">Contact Us</h4>
+            <p>
+              <a href="mailto:info@webwiz.com">info@webwiz.com</a>
+            </p>
+            <p>+1 234-567-4567</p>
+            <div>
+              <a href="#" class="mx-3"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="mx-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="mx-3"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <!-- Newsletter Section -->
+          <div class="col mb-4 text-center">
+            <h4 class="fw-bold">Subscribe</h4>
+            <p class="text-muted">
+              Get the latest news and updates from WebWiz directly in your
+              inbox.
+            </p>
+            <form action="#" class="d-flex justify-content-center">
+              <input
+                type="email"
+                class="form-control w-75"
+                placeholder="Enter your email"
+              />
+              <button type="submit" class="btn btn-primary ms-2">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="my-4" />
+      </div>
+      <!-- Copyright Section -->
+      <div class="text-center py-3" style="background: #343a40">
+        <p class="text-white mb-0">&copy; 2024 WebWiz. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <div
+      class="modal fade"
+      id="quoteModal"
+      tabindex="-1"
+      aria-labelledby="quoteModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quoteModalLabel">Request a Quote</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="service" class="form-label">Select Service</label>
+                <select class="form-select" id="service" required>
+                  <option value="web-development">Web Development</option>
+                  <option value="mobile-app">Cloud Solutions</option>
+                  <option value="cloud-services">IT Consulting</option>
+                  <option value="cloud-services">Digital Marketing</option>
+                  <option value="cloud-services">App Development</option>
+                  <option value="cloud-services">IT Support</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="background-color: #ff3800; border: none"
+            >
+              Send Quote Request
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing: "ease-out",
+        delay: 200,
+        // once: true,
+        anchorPlacement: "top-bottom",
+        startEvent: "DOMContentLoaded", // Makes sure animations wait for page load
+      });
+    </script>
+  </body>
+</html>

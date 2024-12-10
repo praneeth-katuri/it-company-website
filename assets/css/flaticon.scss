@@ -1,0 +1,229 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?f46d36241d1fc24d47b923e40a905fac") format("truetype"),
+url("./flaticon.woff?f46d36241d1fc24d47b923e40a905fac") format("woff"),
+url("./flaticon.woff2?f46d36241d1fc24d47b923e40a905fac") format("woff2"),
+url("./flaticon.eot?f46d36241d1fc24d47b923e40a905fac#iefix") format("embedded-opentype"),
+url("./flaticon.svg?f46d36241d1fc24d47b923e40a905fac#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "phone-call": "\f101",
+    "arrow-pointing-to-right": "\f102",
+    "computer": "\f103",
+    "audience": "\f104",
+    "advisor": "\f105",
+    "enter": "\f106",
+    "shuttle": "\f107",
+    "checked": "\f108",
+    "heart-shape-outline": "\f109",
+    "x-mark": "\f10a",
+    "add": "\f10b",
+    "placeholder": "\f10c",
+    "email": "\f10d",
+    "aim": "\f10e",
+    "medal": "\f10f",
+    "user-experience": "\f110",
+    "user": "\f111",
+    "calendar": "\f112",
+    "twitter": "\f113",
+    "instagram": "\f114",
+    "pinterest-social-logo": "\f115",
+    "email-1": "\f116",
+    "up-arrow": "\f117",
+    "up-arrow-1": "\f118",
+    "left-arrow": "\f119",
+    "right-arrow-angle": "\f11a",
+    "menu": "\f11b",
+    "menu-1": "\f11c",
+    "facebook": "\f11d",
+    "facebook-logo": "\f11e",
+    "facebook-2": "\f11f",
+    "facebook-circular-logo": "\f120",
+    "facebook-logo-in-circular-shape": "\f121",
+    "down-arrow": "\f122",
+    "down-arrow-2": "\f123",
+    "enter-1": "\f124",
+    "left": "\f125",
+    "back-left-arrow-circular-button-outline": "\f126",
+    "left-arrow-in-circle-outline": "\f127",
+    "logout": "\f128",
+    "add-1": "\f129",
+    "play-button": "\f12a",
+    "play-button-arrowhead": "\f12b",
+    "plus-sign": "\f12c",
+    "visibility": "\f12d",
+    "comment": "\f12e",
+    "globe": "\f12f",
+    "reply": "\f130",
+    "controls": "\f131",
+    "email-2": "\f132",
+    "home": "\f133",
+);
+
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-arrow-pointing-to-right:before {
+    content: map-get($flaticon-map, "arrow-pointing-to-right");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-audience:before {
+    content: map-get($flaticon-map, "audience");
+}
+.flaticon-advisor:before {
+    content: map-get($flaticon-map, "advisor");
+}
+.flaticon-enter:before {
+    content: map-get($flaticon-map, "enter");
+}
+.flaticon-shuttle:before {
+    content: map-get($flaticon-map, "shuttle");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-heart-shape-outline:before {
+    content: map-get($flaticon-map, "heart-shape-outline");
+}
+.flaticon-x-mark:before {
+    content: map-get($flaticon-map, "x-mark");
+}
+.flaticon-add:before {
+    content: map-get($flaticon-map, "add");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-aim:before {
+    content: map-get($flaticon-map, "aim");
+}
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-pinterest-social-logo:before {
+    content: map-get($flaticon-map, "pinterest-social-logo");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon-map, "email-1");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-up-arrow-1:before {
+    content: map-get($flaticon-map, "up-arrow-1");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow-angle:before {
+    content: map-get($flaticon-map, "right-arrow-angle");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-facebook-logo:before {
+    content: map-get($flaticon-map, "facebook-logo");
+}
+.flaticon-facebook-2:before {
+    content: map-get($flaticon-map, "facebook-2");
+}
+.flaticon-facebook-circular-logo:before {
+    content: map-get($flaticon-map, "facebook-circular-logo");
+}
+.flaticon-facebook-logo-in-circular-shape:before {
+    content: map-get($flaticon-map, "facebook-logo-in-circular-shape");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-down-arrow-2:before {
+    content: map-get($flaticon-map, "down-arrow-2");
+}
+.flaticon-enter-1:before {
+    content: map-get($flaticon-map, "enter-1");
+}
+.flaticon-left:before {
+    content: map-get($flaticon-map, "left");
+}
+.flaticon-back-left-arrow-circular-button-outline:before {
+    content: map-get($flaticon-map, "back-left-arrow-circular-button-outline");
+}
+.flaticon-left-arrow-in-circle-outline:before {
+    content: map-get($flaticon-map, "left-arrow-in-circle-outline");
+}
+.flaticon-logout:before {
+    content: map-get($flaticon-map, "logout");
+}
+.flaticon-add-1:before {
+    content: map-get($flaticon-map, "add-1");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-play-button-arrowhead:before {
+    content: map-get($flaticon-map, "play-button-arrowhead");
+}
+.flaticon-plus-sign:before {
+    content: map-get($flaticon-map, "plus-sign");
+}
+.flaticon-visibility:before {
+    content: map-get($flaticon-map, "visibility");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-reply:before {
+    content: map-get($flaticon-map, "reply");
+}
+.flaticon-controls:before {
+    content: map-get($flaticon-map, "controls");
+}
+.flaticon-email-2:before {
+    content: map-get($flaticon-map, "email-2");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
